@@ -8,6 +8,7 @@ accountcity="Bikaner"
 accountEmail="ns@wfh.com"
 accountpassword="6459887"
 accountcity="Bengaluru"
+accountState
 
 console.log(accountId);
 
