@@ -52,9 +52,25 @@ const users=[
     }
 ]
 
-console.log(tinderUser);
-console.log(Object.keys(tinderUser));       //*Most important
-console.log(Object.values(tinderUser));
-console.log(Object.entries(tinderUser));
+// console.log(tinderUser);
+// console.log(Object.keys(tinderUser));       //*Most important
+// console.log(Object.values(tinderUser));
+// console.log(Object.entries(tinderUser));
 
-console.log(tinderUser.hasOwnProperty("isLoggedIn"));
+// console.log(tinderUser.hasOwnProperty("isLoggedIn"));
+
+
+const course={
+    course_name:"Java Script",
+    price:"999",
+    course_Instructor:"SAYAN"
+
+}
+//de structuring objects
+const{course_Instructor:Instructor}=course
+// console.log(course_Instructor);
+console.log(Instructor);
+
+const nav=()=>{
+    
+}
