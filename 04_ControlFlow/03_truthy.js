@@ -21,3 +21,4 @@ if(Object.keys(empObj).length===0){
     console.log("object is empty")
 
 }
+//
